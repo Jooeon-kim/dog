@@ -21,7 +21,7 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-
+    public String getSuit(){return suit;}
     public String toString(){
         return suit+rank;
     }
